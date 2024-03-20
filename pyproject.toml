@@ -25,3 +25,6 @@ disallow_untyped_defs = true
 
 [tool.pylint.'MESSAGES CONTROL']
 disable = ["too-few-public-methods",]
+
+[tool.pylint.FORMAT]
+max-line-length = 79
