@@ -6,6 +6,7 @@ Arrays 101: Max Consecutive Ones.
 https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
 Created on Wed Mar 20 09:17:04 2024
 @author: znapy
+SPDX-License-Identifier: Apache-2.0
 """
 
 
