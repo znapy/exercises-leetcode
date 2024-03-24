@@ -21,3 +21,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### Inserting items into an array
 
 - [Duplicate Zeros](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/) - [problem](https://leetcode.com/problems/duplicate-zeros) - [answer](problems/test_duplicate_zeros.py)
+- [Merge Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/) - [problem](https://leetcode.com/problems/merge-sorted-array) - [answer](problems/test_merge_sorted_array.py)
