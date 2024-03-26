@@ -26,3 +26,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### Deleting items from an array
 
 - [Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/) - [problem](https://leetcode.com/problems/remove-element) - [answer](problems/test_remove_element.py)
+- [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/) - [problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - [answer](problems/test_remove_duplicates_from_sorted_array.py)
