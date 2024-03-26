@@ -9,9 +9,16 @@ Created on Wed Mar 22 11:27:02 2024
 SPDX-License-Identifier: Apache-2.0
 """
 
+from timer import timer
+
 
 class Solution:
     """Leetcode class for answers."""
+
+    @timer
+    def sorted_squares_brute(self, nums: list[int]) -> list[int]:
+        """Squares of a Sorted Array - simpliest."""
+        return sorted(num*num for num in nums)
 
     def sortedSquares(self,  # pylint: disable=invalid-name
                       nums: list[int]) -> list[int]:
@@ -30,6 +37,13 @@ class Solution:
             res.insert(cur, element)
 
         return res
+
+
+if __name__ == "__main__":
+    func_timed = timer(Solution().sortedSquares)
+    nums = [-4, -4, -3]  # [-4, -1, 0, 3, 10]  # [-2, -1, 0, 3, 4]
+    print("sortedSquares:", func_timed(nums))
+    print("sorted_squares_brute:", Solution().sorted_squares_brute(nums))
 
 #########
 # Tests
