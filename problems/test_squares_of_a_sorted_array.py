@@ -51,12 +51,12 @@ if __name__ == "__main__":
 
 
 def test_leetcode_example_1() -> None:
-    """Fhe first example in the task."""
+    """The first example in the task."""
     assert Solution().sortedSquares(
         [-4, -1, 0, 3, 10]) == [0, 1, 9, 16, 100]
 
 
 def test_leetcode_example_2() -> None:
-    """Fhe second example in the task."""
+    """The second example in the task."""
     assert Solution().sortedSquares(
         [-7, -3, 2, 3, 11]) == [4, 9, 9, 49, 121]
