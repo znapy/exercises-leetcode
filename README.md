@@ -30,4 +30,5 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 #### Searching for items in an array
 
-- [Check If N and Its Double Exist](https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/) - [problem](https://leetcode.com/problems/check-if-n-and-its-double-exist) - [answer]()
+- [Check If N and Its Double Exist](https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/) - [problem](https://leetcode.com/problems/check-if-n-and-its-double-exist) - [answer](problems/test_check_if_n_and_its_double_exist.py)
+- [Valid Mountain Array](https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/) - [problem](https://leetcode.com/problems/valid-mountain-array) - [answer](problems/test_valid_mountain_array.py)
