@@ -73,3 +73,31 @@ def test_leetcode_example_2() -> None:
     result = Solution().removeDuplicates(nums)
     assert result == 5
     assert nums[:result] == [0, 1, 2, 3, 4]
+
+
+def test_0() -> None:
+    nums = [0]
+    result = Solution().removeDuplicates(nums)
+    assert result == 1
+    assert nums[:result] == [0]
+
+
+def test_minus_1_1() -> None:
+    nums = [-1, 1]
+    result = Solution().removeDuplicates(nums)
+    assert result == 2
+    assert nums[:result] == [-1, 1]
+
+
+def test_1_2_2() -> None:
+    nums = [1, 2, 2]
+    result = Solution().removeDuplicates(nums)
+    assert result == 2
+    assert nums[:result] == [1, 2]
+
+
+def test_minuses_10_9_9_10() -> None:
+    nums = [-10, -9, -9, 10]
+    result = Solution().removeDuplicates(nums)
+    assert result == 3
+    assert nums[:result] == [-10, -9, 10]
