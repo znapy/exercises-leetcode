@@ -32,3 +32,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Check If N and Its Double Exist](https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/) - [problem](https://leetcode.com/problems/check-if-n-and-its-double-exist) - [answer](problems/test_check_if_n_and_its_double_exist.py)
 - [Valid Mountain Array](https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/) - [problem](https://leetcode.com/problems/valid-mountain-array) - [answer](problems/test_valid_mountain_array.py)
+
+#### In-place operations
+
+- [Replace Elements with Greatest Element on Right Side](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/) - [problem](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) - [answer](problems/test_replace_elements_with_greatest_element_on_right_side.py)
