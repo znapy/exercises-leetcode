@@ -37,3 +37,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Replace Elements with Greatest Element on Right Side](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/) - [problem](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) - [answer](problems/test_replace_elements_with_greatest_element_on_right_side.py)
 - [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3258/) - [problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - [answer](problems/test_remove_duplicates_from_sorted_array.py)
+- [Move Zeroes](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/) - [problem](https://leetcode.com/problems/move-zeroes) - [answer](problems/test_move_zeroes.py)
