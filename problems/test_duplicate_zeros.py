@@ -115,3 +115,9 @@ def test_double_zero() -> None:
     arr = [0, 0, 1, 2, 3]
     Solution().duplicateZeros(arr)
     assert arr == [0, 0, 0, 0, 1]
+
+
+def test_0_1_0() -> None:
+    arr = [0, 1, 0]
+    Solution().duplicateZeros(arr)
+    assert arr == [0, 0, 1]
