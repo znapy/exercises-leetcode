@@ -40,3 +40,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Move Zeroes](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/) - [problem](https://leetcode.com/problems/move-zeroes) - [answer](problems/test_move_zeroes.py)
 - [Sort Array By Parity](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3260/) - [problem](https://leetcode.com/problems/sort-array-by-parity) - [answer](problems/test_sort_array_by_parity.py)
 - [Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3575/) (duplicate) - [problem](https://leetcode.com/problems/remove-element) - [answer](problems/test_remove_element.py)
+
+#### Conclusion
+
+- [Height Checker](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3228/) - [problem](https://leetcode.com/problems/height-checker) - [answer](problems/test_height_checker.py)
