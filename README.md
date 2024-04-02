@@ -44,3 +44,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### Conclusion
 
 - [Height Checker](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3228/) - [problem](https://leetcode.com/problems/height-checker) - [answer](problems/test_height_checker.py)
+- [Third Maximum Number](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/) - [problem](https://leetcode.com/problems/third-maximum-number) - [answer](problems/test_third_maximum_number.py)
