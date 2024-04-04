@@ -6,6 +6,9 @@ My python exercises in https://leetcode.com/
 
 Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
+- [Arrays 101](#Arrays-101)
+- [Array and String](#Array-and-String)
+
 ### Arrays 101
 
 ![card_Arrays101](.assets/card_Arrays101.png)
@@ -47,3 +50,9 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Third Maximum Number](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/) - [problem](https://leetcode.com/problems/third-maximum-number) - [answer](problems/test_third_maximum_number.py)
 - [Find All Numbers Disappeared in an Array](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3270/) - [problem](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) - [answer](problems/test_find_all_numbers_disappeared_in_an_array.py)
 - [Squares of a Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3574/) (duplicate) - [problem](https://leetcode.com/problems/squares-of-a-sorted-array) - [answer](problems/test_squares_of_a_sorted_array.py)
+
+### Array and String
+
+![card_array-and-string](.assets/card_array-and-string.png)
+
+[card/array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
