@@ -36,7 +36,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### In-place operations
 
 - [Replace Elements with Greatest Element on Right Side](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/) - [problem](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) - [answer](problems/test_replace_elements_with_greatest_element_on_right_side.py)
-- [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3258/) - [problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - [answer](problems/test_remove_duplicates_from_sorted_array.py)
+- [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3258/) (duplicate) - [problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - [answer](problems/test_remove_duplicates_from_sorted_array.py)
 - [Move Zeroes](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/) - [problem](https://leetcode.com/problems/move-zeroes) - [answer](problems/test_move_zeroes.py)
 - [Sort Array By Parity](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3260/) - [problem](https://leetcode.com/problems/sort-array-by-parity) - [answer](problems/test_sort_array_by_parity.py)
 - [Remove Element](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3575/) (duplicate) - [problem](https://leetcode.com/problems/remove-element) - [answer](problems/test_remove_element.py)
@@ -46,3 +46,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Height Checker](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3228/) - [problem](https://leetcode.com/problems/height-checker) - [answer](problems/test_height_checker.py)
 - [Third Maximum Number](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/) - [problem](https://leetcode.com/problems/third-maximum-number) - [answer](problems/test_third_maximum_number.py)
 - [Find All Numbers Disappeared in an Array](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3270/) - [problem](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) - [answer](problems/test_find_all_numbers_disappeared_in_an_array.py)
+- [Squares of a Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3574/) (duplicate) - [problem](https://leetcode.com/problems/squares-of-a-sorted-array) - [answer](problems/test_squares_of_a_sorted_array.py)
