@@ -56,3 +56,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 ![card_array-and-string](.assets/card_array-and-string.png)
 
 [card/array-and-string](https://leetcode.com/explore/learn/card/array-and-string/)
+
+#### Introduction to array
+
+- [Find Pivot Index](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/) - [problem](https://leetcode.com/problems/find-pivot-index) - [answer](problems/test_find_pivot_index.py)
