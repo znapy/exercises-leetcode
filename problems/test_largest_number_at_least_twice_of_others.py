@@ -22,6 +22,8 @@ class Solution:
         if s[-1] >= s[-2] * 2:
             return nums.index(s[-1])
         return -1
+        # We can also go throw loop 1 time and remember the largest
+        # and second largest values.
 
 
 if __name__ == "__main__":
