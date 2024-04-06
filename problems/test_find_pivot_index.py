@@ -30,6 +30,8 @@ class Solution:
             if val_lr == val_rl:
                 return i
         return -1
+        # We can also use 'sum(nums)' minus accumulator
+        # instead of 'accumulate()'.
 
 
 if __name__ == "__main__":
