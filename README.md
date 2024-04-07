@@ -61,3 +61,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Find Pivot Index](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/) - [problem](https://leetcode.com/problems/find-pivot-index) - [answer](problems/test_find_pivot_index.py)
 - [Largest Number At Least Twice of Others](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1147/) - [problem](https://leetcode.com/problems/largest-number-at-least-twice-of-others) - [answer](problems/test_largest_number_at_least_twice_of_others.py)
+- [Plus One](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1148/) - [problem](https://leetcode.com/problems/plus-one) - [answer](problems/test_plus_one.py)
