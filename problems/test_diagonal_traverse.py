@@ -71,7 +71,7 @@ def test_leetcode_example_1() -> None:
     assert Solution().findDiagonalOrder(
         [[1, 2, 3], [4, 5, 6], [7, 8, 9]]) == [1, 2, 4, 7, 5, 3, 6, 8, 9]
 
-rule[previous_offset]
+
 def test_leetcode_example_2() -> None:
     """The second example in the task."""
     assert Solution().findDiagonalOrder(
@@ -87,7 +87,7 @@ def test_1_2_() -> None:
     assert Solution().findDiagonalOrder(
         [[1], [2]]) == [1, 2]
 
-rule[previous_offset]
+
 def test_12_() -> None:
     assert Solution().findDiagonalOrder(
         [[1, 2]]) == [1, 2]
