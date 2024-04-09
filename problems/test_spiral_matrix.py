@@ -97,9 +97,10 @@ class Solution:
         """Leetcode function as answer."""
         result: list[int] = []
         for i, j in self.idx(len(matrix), len(matrix[0])):
-            print(f"Coortinata: ({i}, {j})")
             result.append(matrix[i][j])
         return result
+        # We can also use everything in one loop with corners
+        # and 4 directions in each pass
 
 
 if __name__ == "__main__":
