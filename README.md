@@ -68,3 +68,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Diagonal Traverse](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1167/) - [problem](https://leetcode.com/problems/diagonal-traverse) - [answer](problems/test_diagonal_traverse.py)
 - [Spiral Matrix](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1168/) - [problem](https://leetcode.com/problems/spiral-matrix) - [answer](problems/test_spiral_matrix.py)
 - [Pascal's Triangle](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1170/) - [problem](https://leetcode.com/problems/pascals-triangle) - [answer](problems/test_pascals_triangle.py)
+
+#### Introduction to string
+
+- [Add Binary](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160/) - [problem](https://leetcode.com/problems/add-binary) - [answer](problems/test_add_binary.py)
