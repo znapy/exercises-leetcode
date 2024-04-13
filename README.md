@@ -73,3 +73,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Add Binary](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160/) - [problem](https://leetcode.com/problems/add-binary) - [answer](problems/test_add_binary.py)
 - [Implement strStr()](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1161/) - [problem](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) - [answer](problems/test_find_the_index_of_the_first_occurrence_in_a_string.py)
+- [Longest Common Prefix](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1162/) - [problem](https://leetcode.com/problems/longest-common-prefix) - [answer](problems/test_longest_common_prefix.py)
