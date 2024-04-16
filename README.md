@@ -79,3 +79,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Reverse String](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1183/) - [problem](https://leetcode.com/problems/reverse-string) - [answer](problems/test_reverse_string.py)
 - [Array Partition I](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1154/) - [problem](https://leetcode.com/problems/array-partition) - [answer](problems/test_array_partition.py)
+- [Two Sum II - Input array is sorted](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1153/) - [problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) - [answer](problems/test_array_partition.py)
