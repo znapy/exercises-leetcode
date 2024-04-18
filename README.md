@@ -83,3 +83,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Remove Element](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1151/) (duplicate) - [problem](https://leetcode.com/problems/remove-element) - [answer](problems/test_remove_element.py)
 - [Max Consecutive Ones](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1301/) (duplicate) - [problem](https://leetcode.com/problems/max-consecutive-ones) - [answer](problems/test_max_consecutive_ones.py)
 - [Minimum Size Subarray Sum](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1299/) - [problem](https://leetcode.com/problems/minimum-size-subarray-sum) - [answer](problems/test_minimum_size_subarray_sum.py)
+
+#### Conclusion
+
+- [Rotate Array](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1182/) - [problem](https://leetcode.com/problems/rotate-array) - [answer](problems/test_minimum_size_subarray_sum.py)
