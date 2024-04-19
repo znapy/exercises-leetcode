@@ -87,3 +87,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### Conclusion
 
 - [Rotate Array](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1182/) - [problem](https://leetcode.com/problems/rotate-array) - [answer](problems/test_minimum_size_subarray_sum.py)
+- [Pascal's Triangle II](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1171/) - [problem](https://leetcode.com/problems/pascals-triangle-ii) - [answer](problems/test_pascals_triangle_ii.py)
