@@ -9,6 +9,11 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Arrays 101](#Arrays-101)
 - [Array and String](#Array-and-String)
 
+![Dependency map](.assets/dependency_map.png)
+
+[Dependency map](https://leetcode.com/explore/learn/card/the-leetcode-beginners-guide/679/sql-syntax/4358/)
+
+
 ### Arrays 101
 
 ![card_Arrays101](.assets/card_Arrays101.png)
