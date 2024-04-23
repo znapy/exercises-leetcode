@@ -8,15 +8,16 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Arrays 101](#Arrays-101)
 - [Array and String](#Array-and-String)
+- [Linked list](#Linked-list)
 
 ![Dependency map](.assets/dependency_map.png)
 
-[Dependency map](https://leetcode.com/explore/learn/card/the-leetcode-beginners-guide/679/sql-syntax/4358/)
+[Source of the dependency map](https://leetcode.com/explore/learn/card/the-leetcode-beginners-guide/679/sql-syntax/4358/)
 
 
 ### Arrays 101
 
-![card_Arrays101](.assets/card_Arrays101.png)
+![card_Arrays101](.assets/card_arrays101.png)
 
 [card/fun-with-arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
 
@@ -97,3 +98,13 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Reverse Words in a String III](https://leetcode.com/explore/learn/card/array-and-string/204/conclusion/1165/) - [problem](https://leetcode.com/problems/reverse-words-in-a-string-iii) - [answer](problems/test_reverse_words_in_a_string_iii.py)
 - [Remove Duplicates from Sorted Array](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3258/) (duplicate) - [problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - [answer](problems/test_remove_duplicates_from_sorted_array.py)
 - [Move Zeroes](https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3157/) (duplicate) - [problem](https://leetcode.com/problems/move-zeroes) - [answer](problems/test_move_zeroes.py)
+
+### Linked list
+
+![linked list](.assets/card_linked-list.png)
+
+[card/linked-list](https://leetcode.com/explore/learn/card/linked-list/)
+
+#### Singly Linked List
+
+- [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/) - [problem](https://leetcode.com/problems/design-linked-list) - [answer](problems/test_design-linked-list.py)
