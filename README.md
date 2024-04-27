@@ -113,3 +113,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Linked List Cycle](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1212/) - [problem](https://leetcode.com/problems/linked-list-cycle) - [answer](problems/test_linked_list_cycle.py)
 - [Linked List Cycle II](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1214/) - [problem](https://leetcode.com/problems/linked-list-cycle-ii) - [answer](problems/test_linked_list_cycle_ii.py)
+- [Intersection of Two Linked Lists](https://leetcode.com/explore/learn/card/linked-list/214/two-pointer-technique/1215/) - [problem](https://leetcode.com/problems/intersection-of-two-linked-lists) - [answer](problems/test_intersection_of_two_linked_lists.py)
