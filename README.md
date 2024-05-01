@@ -120,3 +120,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Reverse Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1205/) - [problem](https://leetcode.com/problems/reverse-linked-list) - [answer](problems/test_reverse_linked_list.py)
 - [Remove Linked List Elements](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1207/) - [problem](https://leetcode.com/problems/remove-linked-list-elements) - [answer](problems/test_remove_linked_list_elements.py)
+- [Odd Even Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1208/) - [problem](https://leetcode.com/problems/odd-even-linked-list) - [answer](problems/test_odd_even_linked_list.py)
