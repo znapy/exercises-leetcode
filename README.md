@@ -107,7 +107,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 #### Singly Linked List
 
-- [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/) - [problem](https://leetcode.com/problems/design-linked-list) - [answer](problems/test_design-linked-list.py)
+- [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/209/singly-linked-list/1290/) - [problem](https://leetcode.com/problems/design-linked-list) - [answer](problems/test_design_linked_list.py)
 
 #### Two pointer technique
 
@@ -122,3 +122,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Remove Linked List Elements](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1207/) - [problem](https://leetcode.com/problems/remove-linked-list-elements) - [answer](problems/test_remove_linked_list_elements.py)
 - [Odd Even Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1208/) - [problem](https://leetcode.com/problems/odd-even-linked-list) - [answer](problems/test_odd_even_linked_list.py)
 - [Palindrome Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1209/) - [problem](https://leetcode.com/problems/palindrome-linked-list) - [answer](problems/test_palindrome_linked_list.py)
+- [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/210/doubly-linked-list/1294/) (duplicate) - [problem](https://leetcode.com/problems/design-linked-list) - [answer](problems/test_design_linked_list.py)
