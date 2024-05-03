@@ -123,3 +123,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Odd Even Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1208/) - [problem](https://leetcode.com/problems/odd-even-linked-list) - [answer](problems/test_odd_even_linked_list.py)
 - [Palindrome Linked List](https://leetcode.com/explore/learn/card/linked-list/219/classic-problems/1209/) - [problem](https://leetcode.com/problems/palindrome-linked-list) - [answer](problems/test_palindrome_linked_list.py)
 - [Design Linked List](https://leetcode.com/explore/learn/card/linked-list/210/doubly-linked-list/1294/) (duplicate) - [problem](https://leetcode.com/problems/design-linked-list) - [answer](problems/test_design_linked_list.py)
+
+#### Conclusion
+
+- [Merge Two Sorted Lists](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1227/) - [problem](https://leetcode.com/problems/merge-two-sorted-lists) - [answer](problems/test_merge_two_sorted_lists.py)
