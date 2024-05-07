@@ -130,3 +130,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Add Two Numbers](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1228/) - [problem](https://leetcode.com/problems/add-two-numbers) - [answer](problems/test_add_two_numbers.py)
 - [Flatten a Multilevel Doubly Linked List](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1225/) - [problem](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) - [answer](problems/test_flatten_a_multilevel_doubly_linked_list.py)
 - [Copy List with Random Pointer](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1229/) -[problem](https://leetcode.com/problems/copy-list-with-random-pointer) - [answer](problems/test_copy_list_with_random_pointer.py)
+- [Rotate List](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1295/) -[problem](https://leetcode.com/problems/rotate-list) - [answer](problems/test_rotate_list.py)
