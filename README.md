@@ -9,6 +9,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Arrays 101](#Arrays-101)
 - [Array and String](#Array-and-String)
 - [Linked list](#Linked-list)
+- [Recursion I](#Recursion-I)
 
 ![Dependency map](.assets/dependency_map.png)
 
@@ -131,3 +132,9 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Flatten a Multilevel Doubly Linked List](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1225/) - [problem](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) - [answer](problems/test_flatten_a_multilevel_doubly_linked_list.py)
 - [Copy List with Random Pointer](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1229/) -[problem](https://leetcode.com/problems/copy-list-with-random-pointer) - [answer](problems/test_copy_list_with_random_pointer.py)
 - [Rotate List](https://leetcode.com/explore/learn/card/linked-list/213/conclusion/1295/) -[problem](https://leetcode.com/problems/rotate-list) - [answer](problems/test_rotate_list.py)
+
+### Recursion I
+
+![card_Arrays101](.assets/card_recursion-i.png)
+
+[card/recursion-i](https://leetcode.com/explore/learn/card/recursion-i/)
