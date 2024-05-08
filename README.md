@@ -138,3 +138,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 ![card_Arrays101](.assets/card_recursion-i.png)
 
 [card/recursion-i](https://leetcode.com/explore/learn/card/recursion-i/)
+
+#### Principle of recursion
+
+- [Reverse String](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1440/) (duplicate) - [problem](https://leetcode.com/problems/reverse-string) - [answer](problems/test_reverse_string.py)

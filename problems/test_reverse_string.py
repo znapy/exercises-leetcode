@@ -22,12 +22,22 @@ class Solution:
 
         Do not return anything, modify s in-place instead.
         """
-        i, j = 0, len(s) - 1
-        while j > i:
-            s[i], s[j] = s[j], s[i]
-            i += 1
-            j -= 1
-        # Simpliest solution without pointers: s[:] = s[::-1]
+        # In-place variant:
+        # i, j = 0, len(s) - 1
+        # while j > i:
+        #     s[i], s[j] = s[j], s[i]
+        #     i += 1
+        #     j -= 1
+
+        # Simpliest solution without pointers but copy of the list:
+        # s[:] = s[::-1]
+
+        # Recursion variant:
+        def recursion(s: list[str], i: int, j: int) -> None:
+            if i < j:
+                s[i], s[j] = s[j], s[i]
+                recursion(s, i+1, j-1)
+        recursion(s, 0, len(s) - 1)
 
 
 if __name__ == "__main__":
