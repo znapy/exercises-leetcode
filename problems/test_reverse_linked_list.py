@@ -53,6 +53,7 @@ class Solution:
                 head, pointer.next, pointer
 
         return head
+        # I can also do this with using recursion, but I'm lazy.
 
 
 if __name__ == "__main__":

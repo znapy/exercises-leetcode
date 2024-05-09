@@ -143,3 +143,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Reverse String](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1440/) (duplicate) - [problem](https://leetcode.com/problems/reverse-string) - [answer](problems/test_reverse_string.py)
 - [Swap Nodes in Pairs](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1681/) - [problem](https://leetcode.com/problems/swap-nodes-in-pairs) - [answer](problems/test_swap_nodes_in_pairs.py)
+
+#### Recurrence relation
+
+- [Reverse Linked List](https://leetcode.com/explore/featured/card/recursion-i/251/scenario-i-recurrence-relation/2378/) - [problem](https://leetcode.com/problems/reverse-linked-list) (duplicate) - [answer](problems/test_reverse_linked_list.py)
