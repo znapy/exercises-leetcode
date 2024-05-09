@@ -53,6 +53,7 @@ class Solution:
         #         res[j] = prev+res[j]
         #         prev = tmp
         # return res
+        # I can also do this with using recursion, but I'm lazy.
 
 
 if __name__ == "__main__":

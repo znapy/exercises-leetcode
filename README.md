@@ -146,4 +146,5 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 #### Recurrence relation
 
-- [Reverse Linked List](https://leetcode.com/explore/featured/card/recursion-i/251/scenario-i-recurrence-relation/2378/) - [problem](https://leetcode.com/problems/reverse-linked-list) (duplicate) - [answer](problems/test_reverse_linked_list.py)
+- [Reverse Linked List](https://leetcode.com/explore/featured/card/recursion-i/251/scenario-i-recurrence-relation/2378/) (duplicate) - [problem](https://leetcode.com/problems/reverse-linked-list) - [answer](problems/test_reverse_linked_list.py)
+- [Pascal's Triangle II](https://leetcode.com/explore/featured/card/recursion-i/251/scenario-i-recurrence-relation/3234/) (duplicate) - [problem](https://leetcode.com/problems/pascals-triangle-ii) - [answer](problems/test_pascals_triangle_ii.py)
