@@ -142,3 +142,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### Principle of recursion
 
 - [Reverse String](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1440/) (duplicate) - [problem](https://leetcode.com/problems/reverse-string) - [answer](problems/test_reverse_string.py)
+- [Swap Nodes in Pairs](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1681/) - [problem](https://leetcode.com/problems/swap-nodes-in-pairs) - [answer](problems/test_swap_nodes_in_pairs.py)
