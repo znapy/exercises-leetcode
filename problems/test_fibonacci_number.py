@@ -34,6 +34,8 @@ class Solution:
         # - twice recursion, let's make it a little more efficient
 
         return Solution.fib_with_prev(n-2, 1, 0)
+        # Also, there is realisation with lru_cache optimization
+        # - see module test_fibonacci_number.py
 
 
 if __name__ == "__main__":
