@@ -12,33 +12,6 @@ SPDX-License-Identifier: Apache-2.0
 from timer import timer
 
 
-class ListNode:
-    """Definition for singly-linked list."""
-
-    def __init__(self, x: [int, 'ListNode'], next_: ["ListNode", None] = None
-                 ) -> None:
-        self.val = x
-        self.next: ListNode | None = next_
-
-    def __repr__(self) -> str:
-        """Representation of object is [head -> val -> tail]."""
-        current = self
-        result = str(current.val)
-        nodes: list[ListNode] = [current]
-        while current.next is not None and\
-                nodes.count(current.next) == 0:
-
-            current = current.next
-            nodes.append(current)
-            result += " -> " + str(current.val)
-
-        if current.next is not None and\
-           nodes.count(current.next):
-            result += " -> ...looped to " + str(current.next.val)
-
-        return "<ListNode: [" + result + "]>"
-
-
 class Solution:
     """Leetcode class for answers."""
 
