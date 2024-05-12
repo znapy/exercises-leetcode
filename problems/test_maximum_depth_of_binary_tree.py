@@ -9,7 +9,6 @@ Created on Sat May 11 08:52:07 2024
 SPDX-License-Identifier: Apache-2.0
 """
 
-from functools import lru_cache
 from collections import deque
 
 from timer import timer
@@ -27,7 +26,7 @@ class TreeNode:
     @staticmethod
     def construct(vals: list[int | None]) -> "TreeNode":
         """My realisation - construct the Tree from a list."""
-        if not len(vals) or type(vals[0]) is not int:
+        if not (vals and isinstance(vals[0], int)):
             raise ValueError("Incorrect first value in a list")
         head = TreeNode(vals[0])
         my_tree: list[TreeNode | None] = [head]
@@ -105,6 +104,7 @@ if __name__ == "__main__":
 
 
 class TestTreeNode:
+    """Test constructor and representation."""
 
     @staticmethod
     def test_construct() -> None:
@@ -128,7 +128,7 @@ def test_leetcode_example_2() -> None:
     assert Solution().maxDepth(head) == 2
 
 
-def test_None() -> None:
+def test_none() -> None:
     assert Solution().maxDepth(None) == 0
 
 
