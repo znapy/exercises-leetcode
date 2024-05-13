@@ -157,3 +157,4 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 #### Complexity analysis
 
 - [Maximum Depth of Binary Tree](https://leetcode.com/explore/learn/card/recursion-i/256/complexity-analysis/2375/) - [problem](https://leetcode.com/problems/maximum-depth-of-binary-tree) - [answer](problems/test_maximum_depth_of_binary_tree.py)
+- [Pow(x, n)](https://leetcode.com/explore/learn/card/recursion-i/256/complexity-analysis/2380/) - [problem](https://leetcode.com/problems/powx-n) - [answer](problems/test_powx_n.py)
