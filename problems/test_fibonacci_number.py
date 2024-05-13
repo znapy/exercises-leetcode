@@ -35,7 +35,7 @@ class Solution:
 
         return Solution.fib_with_prev(n-2, 1, 0)
         # Also, there is realisation with lru_cache optimization
-        # - see module test_fibonacci_number.py
+        # - see module test_climbing_stairs.py
 
 
 if __name__ == "__main__":
