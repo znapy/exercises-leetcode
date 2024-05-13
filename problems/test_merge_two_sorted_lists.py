@@ -159,6 +159,7 @@ class Solution:
             prev = cur
 
         return head
+        # I'm lazy to realize it as recursion
 
 
 if __name__ == "__main__":
