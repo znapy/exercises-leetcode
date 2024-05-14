@@ -59,7 +59,7 @@ class Solution:
                 sequence[fast] = 1
         return sequence[-1]
 
-    # Memory Limit Exceeded - in values 30, 434991989
+    # Still not good - memory limit exceeded in parameters: (30, 434991989)
     def kthGrammar_bytearray(self,  # pylint: disable=invalid-name
                              n: int, k: int) -> int:
         """Leetcode function as answer."""
