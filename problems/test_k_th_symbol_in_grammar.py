@@ -120,8 +120,6 @@ if __name__ == "__main__":
 # pylint: disable=missing-function-docstring
 
 
-# float result needs to be rounded up,
-# but I'm too lazy - it works like this :)
 def test_leetcode_example_1() -> None:
     """The first example in the task."""
     assert Solution().kthGrammar(
