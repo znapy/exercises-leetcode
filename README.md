@@ -163,4 +163,12 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Merge Two Sorted Lists](https://leetcode.com/explore/learn/card/recursion-i/253/conclusion/2382/) (duplicate) - [problem](https://leetcode.com/problems/merge-two-sorted-lists) - [answer](problems/test_merge_two_sorted_lists.py)
 - [K-th Symbol in Grammar](https://leetcode.com/explore/learn/card/recursion-i/253/conclusion/1675/) - [problem](https://leetcode.com/problems/k-th-symbol-in-grammar) - [answer](problems/test_k_th_symbol_in_grammar.py)
-- [Unique Binary Search Trees II](https://leetcode.com/explore/learn/card/recursion-i/253/conclusion/2384/) - [problem](https://leetcode.com/problems/unique-binary-search-trees-ii) - [answer](problems/test_unique_binary_search_trees_ii.py)
+- [Unique Binary Search Trees II] - [problem](https://leetcode.com/problems/unique-binary-search-trees-ii) - [answer](problems/test_unique_binary_search_trees_ii.py)
+
+[Unique Binary Search Trees II]: https://leetcode.com/explore/learn/card/recursion-i/253/conclusion/2384/
+
+#### Old
+
+this exercise was in leetcode in 2023, but now there is [Unique Binary Search Trees II] instead
+
+- [Search in a Binary Search Tree](https://leetcode.com/explore/learn/card/recursion-i/251/scenario-i-recurrence-relation/3233/) - [problem](https://leetcode.com/problems/search-in-a-binary-search-tree) - [answer](problems/test_search_in_a_binary_search_tree.py)
