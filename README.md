@@ -10,6 +10,8 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Array and String](#Array-and-String)
 - [Linked list](#Linked-list)
 - [Recursion I](#Recursion-I)
+- [Recursion I](#Recursion-I)
+- [Hash Table](#Hash-Table)
 
 ![Dependency map](.assets/dependency_map.png)
 
@@ -18,7 +20,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 ### Arrays 101
 
-![card_Arrays101](.assets/card_arrays101.png)
+![card_arrays101](.assets/card_arrays101.png)
 
 [card/fun-with-arrays](https://leetcode.com/explore/learn/card/fun-with-arrays/)
 
@@ -102,7 +104,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 ### Linked list
 
-![linked list](.assets/card_linked-list.png)
+![card_linked list](.assets/card_linked-list.png)
 
 [card/linked-list](https://leetcode.com/explore/learn/card/linked-list/)
 
@@ -135,7 +137,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 ### Recursion I
 
-![card_Arrays101](.assets/card_recursion-i.png)
+![card_recursion-i](.assets/card_recursion-i.png)
 
 [card/recursion-i](https://leetcode.com/explore/learn/card/recursion-i/)
 
@@ -172,3 +174,11 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 this exercise was in leetcode in 2023, but now there is [Unique Binary Search Trees II] instead
 
 - [Search in a Binary Search Tree](https://leetcode.com/explore/learn/card/recursion-i/251/scenario-i-recurrence-relation/3233/) - [problem](https://leetcode.com/problems/search-in-a-binary-search-tree) - [answer](problems/test_search_in_a_binary_search_tree.py)
+
+### Hash Table
+
+![card_hash-table](.assets/card_hash-table.png)
+
+[card/hash-table](https://leetcode.com/explore/learn/card/hash-table/)
+
+#### Design a hash table
