@@ -182,3 +182,5 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 [card/hash-table](https://leetcode.com/explore/learn/card/hash-table/)
 
 #### Design a hash table
+
+- [Design HashSet](https://leetcode.com/explore/learn/card/hash-table/182/practical-applications/1139/) - [problem](https://leetcode.com/problems/design-hashset) - [answer](problems/test_design_hashset.py)
