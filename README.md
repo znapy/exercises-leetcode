@@ -185,3 +185,7 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 - [Design HashSet](https://leetcode.com/explore/learn/card/hash-table/182/practical-applications/1139/) - [problem](https://leetcode.com/problems/design-hashset) - [answer](problems/test_design_hashset.py)
 - [Design HashMap](https://leetcode.com/explore/learn/card/hash-table/182/practical-applications/1140/) - [problem](https://leetcode.com/problems/design-hashmap) - [answer](problems/test_design_hashmap.py)
+
+#### Practical application - hash set
+
+- [Contains Duplicate](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1112/) - [problem](https://leetcode.com/problems/contains-duplicate) - [answer](problems/test_contains_duplicate.py)
