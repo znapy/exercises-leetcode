@@ -190,3 +190,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 - [Contains Duplicate](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1112/) - [problem](https://leetcode.com/problems/contains-duplicate) - [answer](problems/test_contains_duplicate.py)
 - [Single Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1176/) - [problem](https://leetcode.com/problems/single-number) - [answer](problems/test_single_number.py)
+- [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1105/) - [problem](https://leetcode.com/problems/intersection-of-two-arrays) - [answer](problems/test_intersection_of_two_arrays.py)
