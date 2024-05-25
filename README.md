@@ -192,3 +192,7 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [Single Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1176/) - [problem](https://leetcode.com/problems/single-number) - [answer](problems/test_single_number.py)
 - [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1105/) - [problem](https://leetcode.com/problems/intersection-of-two-arrays) - [answer](problems/test_intersection_of_two_arrays.py)
 - [Happy Number](https://leetcode.com/explore/learn/card/hash-table/183/combination-with-other-algorithms/1131/) - [problem](https://leetcode.com/problems/happy-number) - [answer](problems/test_happy_number.py)
+
+#### Practical application - hash map
+
+- [Two Sum](https://leetcode.com/explore/learn/card/hash-table/184/comparison-with-other-data-structures/1115/) - [problem](https://leetcode.com/problems/two-sum) - [answer](problems/test_two_sum.py)
