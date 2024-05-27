@@ -196,3 +196,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 #### Practical application - hash map
 
 - [Two Sum](https://leetcode.com/explore/learn/card/hash-table/184/comparison-with-other-data-structures/1115/) - [problem](https://leetcode.com/problems/two-sum) - [answer](problems/test_two_sum.py)
+- [Isomorphic Strings](https://leetcode.com/explore/learn/card/hash-table/184/comparison-with-other-data-structures/1117/) - [problem](https://leetcode.com/problems/isomorphic-strings) - [answer](problems/test_isomorphic_strings.py)
