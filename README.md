@@ -201,3 +201,7 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [First Unique Character in a String](https://leetcode.com/explore/learn/card/hash-table/184/comparison-with-other-data-structures/1120/) - [problem](https://leetcode.com/problems/first-unique-character-in-a-string) - [answer](problems/test_minimum_index_sum_of_two_lists.py)
 - [Intersection of Two Arrays II](https://leetcode.com/explore/learn/card/hash-table/184/comparison-with-other-data-structures/1178/) - [problem](https://leetcode.com/problems/intersection-of-two-arrays-ii) - [answer](problems/test_intersection_of_two_arrays_ii.py)
 - [Contains Duplicate II](https://leetcode.com/explore/learn/card/hash-table/184/comparison-with-other-data-structures/1121/) - [problem](https://leetcode.com/problems/contains-duplicate-ii) - [answer](problems/test_contains_duplicate_ii.py)
+
+#### Practical application - design the key
+
+- [Group Anagrams](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1124/) - [problem](https://leetcode.com/problems/group-anagrams) - [answer](problems/test_contains_duplicate_ii.py)
