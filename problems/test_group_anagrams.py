@@ -59,3 +59,18 @@ def test_leetcode_example_3() -> None:
     """The third example in the task."""
     assert Solution().groupAnagrams(
         ["a"]) == [["a"]]
+
+
+def test_common() -> None:
+    func = Solution().groupAnagrams
+    assert func(["a", "b"]) == [['a'], ['b']]
+
+    assert func(["a", "ab"]) == [['a'], ['ab']]
+
+    assert func(["ab", "a"]) == [['ab'], ['a']]
+
+    assert func(["aa", "b"]) == [['aa'], ['b']]
+
+    assert func(["ab", "ab"]) == [['ab', 'ab']]
+
+    assert func(["ab", "ba"]) == [['ab', 'ba']]

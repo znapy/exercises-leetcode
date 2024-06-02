@@ -204,4 +204,5 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 #### Practical application - design the key
 
-- [Group Anagrams](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1124/) - [problem](https://leetcode.com/problems/group-anagrams) - [answer](problems/test_contains_duplicate_ii.py)
+- [Group Anagrams](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1124/) - [problem](https://leetcode.com/problems/group-anagrams) - [answer](problems/test_group_anagrams.py)
+- [Valid Sudoku](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1126/) - [problem](https://leetcode.com/problems/valid-sudoku) - [answer](problems/test_valid_sudoku.py)
