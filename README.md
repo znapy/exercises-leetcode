@@ -206,3 +206,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 - [Group Anagrams](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1124/) - [problem](https://leetcode.com/problems/group-anagrams) - [answer](problems/test_group_anagrams.py)
 - [Valid Sudoku](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1126/) - [problem](https://leetcode.com/problems/valid-sudoku) - [answer](problems/test_valid_sudoku.py)
+- [Find Duplicate Subtrees](https://leetcode.com/explore/learn/card/hash-table/185/hash_table_design_the_key/1127/) - [problem](https://leetcode.com/problems/find-duplicate-subtrees) - [answer](problems/test_find_duplicate_subtrees.py)
