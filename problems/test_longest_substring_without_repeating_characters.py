@@ -10,7 +10,6 @@ SPDX-License-Identifier: Apache-2.0
 """
 
 from timer import timer
-from string import ascii_letters
 
 
 class Solution:
