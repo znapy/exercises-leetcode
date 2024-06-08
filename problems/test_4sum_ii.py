@@ -109,7 +109,6 @@ def test_leetcode_example_2() -> None:
         [0], [0], [0], [0]) == 1
 
 
-
 def test_common() -> None:
     """The third example in the task."""
     func = Solution().fourSumCount
