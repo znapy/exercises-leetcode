@@ -12,6 +12,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Recursion I](#Recursion-I)
 - [Recursion I](#Recursion-I)
 - [Hash Table](#Hash-Table)
+- [Queue & Stack](#Queue-&-Stack)
 
 ![Dependency map](.assets/dependency_map.png)
 
@@ -215,3 +216,13 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [4Sum II](https://leetcode.com/explore/learn/card/hash-table/187/conclusion-hash-table/1134/) - [problem](https://leetcode.com/problems/4sum-ii) - [answer](problems/test_4sum_ii.py)
 - [Top K Frequent Elements](https://leetcode.com/explore/learn/card/hash-table/187/conclusion-hash-table/1133/) - [problem](https://leetcode.com/problems/top-k-frequent-elements) - [answer](problems/test_top_k_frequent_elements.py)
 - [Insert Delete GetRandom O(1)](https://leetcode.com/explore/learn/card/hash-table/187/conclusion-hash-table/1141/) - [problem](https://leetcode.com/problems/insert-delete-getrandom-o1) - [answer](problems/test_insert_delete_getrandom_o1.py)
+
+### Queue & Stack
+
+![card_queue-stack](.assets/card_queue-stack.png)
+
+[card/queue-stack](https://leetcode.com/explore/learn/card/queue-stack/)
+
+#### Queue: First-in-first-out Data Structure
+
+- [Design Circular Queue](https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1337/) - [problem](https://leetcode.com/problems/design-circular-queue) - [answer](problems/test_design_circular_queue.py)
