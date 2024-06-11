@@ -226,3 +226,7 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 #### Queue: First-in-first-out Data Structure
 
 - [Design Circular Queue](https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1337/) - [problem](https://leetcode.com/problems/design-circular-queue) - [answer](problems/test_design_circular_queue.py)
+
+#### Queue and BFS
+
+- [Number of Islands](https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1374/) - [problem](https://leetcode.com/problems/number-of-islands) - [answer](problems/test_number_of_islands.py)
