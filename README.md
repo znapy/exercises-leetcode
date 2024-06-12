@@ -230,3 +230,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 #### Queue and BFS
 
 - [Number of Islands](https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1374/) - [problem](https://leetcode.com/problems/number-of-islands) - [answer](problems/test_number_of_islands.py)
+- [Open the Lock](https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1375/) - [problem](https://leetcode.com/problems/open-the-lock) - [answer](problems/test_open_the_lock.py)
