@@ -237,3 +237,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 - [Min Stack](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1360/) - [problem](https://leetcode.com/problems/min-stack) - [answer](problems/test_min_stack.py)
 - [Valid Parentheses](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1361/) - [problem](https://leetcode.com/problems/valid-parentheses) - [answer](problems/test_valid_parentheses.py)
+- [Daily Temperatures](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1363/) - [problem](https://leetcode.com/problems/daily-temperatures) - [answer](problems/test_daily_temperatures.py)
