@@ -238,3 +238,7 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [Valid Parentheses](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1361/) - [problem](https://leetcode.com/problems/valid-parentheses) - [answer](problems/test_valid_parentheses.py)
 - [Daily Temperatures](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1363/) - [problem](https://leetcode.com/problems/daily-temperatures) - [answer](problems/test_daily_temperatures.py)
 - [Evaluate Reverse Polish Notation](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1394/) - [problem](https://leetcode.com/problems/evaluate-reverse-polish-notation) - [answer](problems/test_evaluate_reverse_polish_notation.py)
+
+#### Stack and DFS
+
+- [Number of Islands](https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1380/) (duplicate) - [problem](https://leetcode.com/problems/number-of-islands) - [answer](problems/test_number_of_islands.py)
