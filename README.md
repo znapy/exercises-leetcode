@@ -243,3 +243,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 - [Number of Islands](https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1380/) (duplicate) - [problem](https://leetcode.com/problems/number-of-islands) - [answer](problems/test_number_of_islands.py)
 - [Clone Graph](https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1392/) - [problem](https://leetcode.com/problems/clone-graph) - [answer](problems/test_clone_graph.py)
+- [Target Sum](https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/1389/) - [problem](https://leetcode.com/problems/target-sum) - [answer](problems/test_target_sum.py)
