@@ -249,3 +249,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 #### Conclusion
 
 - [Implement Queue using Stacks](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1386/) - [problem](https://leetcode.com/problems/implement-queue-using-stacks) - [answer](problems/test_implement_queue_using_stacks.py)
+- [Implement Stack using Queues](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1387/) - [problem](https://leetcode.com/problems/implement-stack-using-queues) - [answer](problems/test_implement_stack_using_queues.py)
