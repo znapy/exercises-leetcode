@@ -57,7 +57,7 @@ class Solution:
                 neighbors.append((i, j))
 
             i, j = point_i, point_j + 1
-            if i < size[1] and (i, j) in unstepped:
+            if j < size[1] and (i, j) in unstepped:
                 neighbors.append((i, j))
 
             return neighbors
