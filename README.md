@@ -252,3 +252,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [Implement Stack using Queues](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1387/) - [problem](https://leetcode.com/problems/implement-stack-using-queues) - [answer](problems/test_implement_stack_using_queues.py)
 - [Decode String](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1379/) - [problem](https://leetcode.com/problems/decode-string) - [answer](problems/test_implement_stack_using_queues.py)
 - [Flood Fill](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1393/) - [problem](https://leetcode.com/problems/flood-fill) - [answer](problems/test_flood_fill.py)
+- [01 Matrix](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1388/) - [problem](https://leetcode.com/problems/01-matrix) - [answer](problems/test_01_matrix.py)
