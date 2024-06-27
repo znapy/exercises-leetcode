@@ -12,6 +12,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 - [Recursion I](#Recursion-I)
 - [Hash Table](#Hash-Table)
 - [Queue & Stack](#Queue-&-Stack)
+- [Binary Search](#Binary-Search)
 
 ![Dependency map](.assets/dependency_map.png)
 
@@ -254,3 +255,13 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [Flood Fill](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1393/) - [problem](https://leetcode.com/problems/flood-fill) - [answer](problems/test_flood_fill.py)
 - [01 Matrix](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1388/) - [problem](https://leetcode.com/problems/01-matrix) - [answer](problems/test_01_matrix.py)
 - [Keys and Rooms](https://leetcode.com/explore/learn/card/queue-stack/239/conclusion/1391/) - [problem](https://leetcode.com/problems/keys-and-rooms) - [answer](problems/test_keys_and_rooms.py)
+
+### Binary Search
+
+![card_binary-search](.assets/card_binary-search.png)
+
+[card/binary-search](https://leetcode.com/explore/learn/card/binary-search/)
+
+#### Background
+
+- [Binary Search](https://leetcode.com/explore/learn/card/binary-search/138/background/1038/) - [problem](https://leetcode.com/problems/binary-search) - [answer](problems/test_binary_search.py)
