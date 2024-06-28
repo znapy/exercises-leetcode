@@ -265,3 +265,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 #### Background
 
 - [Binary Search](https://leetcode.com/explore/learn/card/binary-search/138/background/1038/) - [problem](https://leetcode.com/problems/binary-search) - [answer](problems/test_binary_search.py)
+- [Sqrt(x)](https://leetcode.com/explore/learn/card/binary-search/125/template-i/950/) - [problem](https://leetcode.com/problems/sqrtx) - [answer](problems/test_sqrtx.py)
