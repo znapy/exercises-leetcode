@@ -266,5 +266,5 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 - [Binary Search](https://leetcode.com/explore/learn/card/binary-search/138/background/1038/) - [problem](https://leetcode.com/problems/binary-search) - [answer](problems/test_binary_search.py)
 - [Sqrt(x)](https://leetcode.com/explore/learn/card/binary-search/125/template-i/950/) - [problem](https://leetcode.com/problems/sqrtx) - [answer](problems/test_sqrtx.py)
-- Guess Number Higher or Lower
+- [Guess Number Higher or Lower](https://leetcode.com/explore/learn/card/binary-search/125/template-i/951/) - [problem](https://leetcode.com/problems/guess-number-higher-or-lower) - [answer](problems/test_guess_number_higher_or_lower.py)
 - [Search in Rotated Sorted Array](https://leetcode.com/explore/learn/card/binary-search/125/template-i/952/) - [problem](https://leetcode.com/problems/search-in-rotated-sorted-array) - [answer](problems/test_search_in_rotated_sorted_array.py)
