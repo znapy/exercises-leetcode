@@ -275,3 +275,4 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 #### Template II
 
 - [First Bad Version](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/947/) - [problem](https://leetcode.com/problems/first-bad-version) - [answer](problems/test_first_bad_version.py)
+- [Find Peak Element](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/948/) - [problem](https://leetcode.com/problems/find-peak-element) - [answer](problems/test_find_peak_element.py)
