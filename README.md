@@ -277,3 +277,7 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [First Bad Version](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/947/) - [problem](https://leetcode.com/problems/first-bad-version) - [answer](problems/test_first_bad_version.py)
 - [Find Peak Element](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/948/) - [problem](https://leetcode.com/problems/find-peak-element) - [answer](problems/test_find_peak_element.py)
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/949/) - [problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) - [answer](problems/test_find_minimum_in_rotated_sorted_array.py)
+
+#### Template II
+
+- [Search for a Range](https://leetcode.com/explore/learn/card/binary-search/135/template-iii/944/) - [problem](https://leetcode.com/problems/find-peak-element) - [answer](problems/test_s.py)
