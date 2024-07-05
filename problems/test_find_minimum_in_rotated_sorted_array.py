@@ -10,6 +10,7 @@ SPDX-License-Identifier: Apache-2.0
 """
 
 from timer import timer
+from heapq import nsmallest
 
 
 class Solution:
@@ -34,8 +35,10 @@ class Solution:
 
 if __name__ == "__main__":
     func_timed = timer(Solution().findMin)
-    a, b = "11", "1"
-    print("result:", func_timed([4, 5, 6, 7, 0, 1, 2]))
+    nums = [4, 5, 6, 7, 0, 1, 2]
+    print("result:", func_timed(nums))
+    print("builtin 1:", timer(min)(nums))
+    print("builtin 2:", timer(nsmallest)(1, nums)[0])
 
 #########
 # Tests
