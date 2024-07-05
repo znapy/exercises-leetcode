@@ -280,4 +280,5 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 
 #### Template II
 
-- [Search for a Range](https://leetcode.com/explore/learn/card/binary-search/135/template-iii/944/) - [problem](https://leetcode.com/problems/find-peak-element) - [answer](problems/test_s.py)
+- [Search for a Range](https://leetcode.com/explore/learn/card/binary-search/135/template-iii/944/) - [problem](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) - [answer](problems/test_find_first_and_last_position_of_element_in_sorted_array.py)
+- [Find K Closest Elements](https://leetcode.com/explore/learn/card/binary-search/135/template-iii/945/) - [problem](https://leetcode.com/problems/find-k-closest-elements) - [answer](problems/test_find_k_closest_elements.py)
