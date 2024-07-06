@@ -9,6 +9,7 @@ Created on Sun May 12 16:50:01 2024
 SPDX-License-Identifier: Apache-2.0
 """
 
+from decimal import Decimal
 from timer import timer
 
 
@@ -25,8 +26,9 @@ class Solution:
 
 if __name__ == "__main__":
     func_timed = timer(Solution().myPow)
-    print("result:", func_timed(
-        2.0, 2))
+    print("result:", func_timed(1_000_000_000, 2))
+    func_timed = timer(lambda x, n: float(pow(Decimal(str(x)), n)))
+    print("built-in:", func_timed(1_000_000_000, 2))
 
 #########
 # Tests

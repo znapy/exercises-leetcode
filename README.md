@@ -278,7 +278,19 @@ this exercise was in leetcode in 2023, but now there is [Unique Binary Search Tr
 - [Find Peak Element](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/948/) - [problem](https://leetcode.com/problems/find-peak-element) - [answer](problems/test_find_peak_element.py)
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/949/) - [problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) - [answer](problems/test_find_minimum_in_rotated_sorted_array.py)
 
-#### Template II
+#### Template III
 
 - [Search for a Range](https://leetcode.com/explore/learn/card/binary-search/135/template-iii/944/) - [problem](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) - [answer](problems/test_find_first_and_last_position_of_element_in_sorted_array.py)
 - [Find K Closest Elements](https://leetcode.com/explore/learn/card/binary-search/135/template-iii/945/) - [problem](https://leetcode.com/problems/find-k-closest-elements) - [answer](problems/test_find_k_closest_elements.py)
+- [Find Peak Element](https://leetcode.com/explore/learn/card/binary-search/126/template-ii/948/) (duplicate) - [problem](https://leetcode.com/problems/find-peak-element) - [answer](problems/test_find_peak_element.py)
+
+#### Template analysis
+
+Two exercises are locked (premium account required)
+
+- Closest binary search tree value
+- Search in a sorted array of unknown size
+
+#### Conclusion
+
+- [Pow(x, n)](https://leetcode.com/explore/learn/card/binary-search/137/conclusion/982/) (duplicate) - [problem](https://leetcode.com/problems/powx-n) - [answer](problems/test_powx_n.py)
