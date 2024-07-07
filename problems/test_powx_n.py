@@ -20,15 +20,13 @@ class Solution:
               x: float, n: int) -> float:
         """Leetcode function as answer."""
         # I'm lazy to realize it as recursion
-        from decimal import Decimal
+        # from decimal import Decimal
         return float(pow(Decimal(str(x)), n))
 
 
 if __name__ == "__main__":
     func_timed = timer(Solution().myPow)
     print("result:", func_timed(1_000_000_000, 2))
-    func_timed = timer(lambda x, n: float(pow(Decimal(str(x)), n)))
-    print("built-in:", func_timed(1_000_000_000, 2))
 
 #########
 # Tests

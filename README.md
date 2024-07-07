@@ -294,3 +294,4 @@ Two exercises are locked (premium account required)
 #### Conclusion
 
 - [Pow(x, n)](https://leetcode.com/explore/learn/card/binary-search/137/conclusion/982/) (duplicate) - [problem](https://leetcode.com/problems/powx-n) - [answer](problems/test_powx_n.py)
+- [Valid Perfect Square](https://leetcode.com/explore/learn/card/binary-search/137/conclusion/978/) - [problem](https://leetcode.com/problems/valid-perfect-square) - [answer](problems/test_valid_perfect_square.py)
