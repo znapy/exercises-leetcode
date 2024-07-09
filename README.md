@@ -89,7 +89,7 @@ Cards from [Explore learn](https://leetcode.com/explore/learn/):
 
 - [Reverse String](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1183/) - [problem](https://leetcode.com/problems/reverse-string) - [answer](problems/test_reverse_string.py)
 - [Array Partition I](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1154/) - [problem](https://leetcode.com/problems/array-partition) - [answer](problems/test_array_partition.py)
-- [Two Sum II - Input array is sorted](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1153/) - [problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) - [answer](problems/test_array_partition.py)
+- [Two Sum II - Input array is sorted](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1153/) - [problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) - [answer](problems/test_two_sum_ii_input_array_is_sorted.py)
 - [Remove Element](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1151/) (duplicate) - [problem](https://leetcode.com/problems/remove-element) - [answer](problems/test_remove_element.py)
 - [Max Consecutive Ones](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1301/) (duplicate) - [problem](https://leetcode.com/problems/max-consecutive-ones) - [answer](problems/test_max_consecutive_ones.py)
 - [Minimum Size Subarray Sum](https://leetcode.com/explore/learn/card/array-and-string/205/array-two-pointer-technique/1299/) - [problem](https://leetcode.com/problems/minimum-size-subarray-sum) - [answer](problems/test_minimum_size_subarray_sum.py)
@@ -301,3 +301,6 @@ Two exercises are locked (premium account required)
 
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1033/) (duplicate) - [problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) - [answer](problems/test_find_minimum_in_rotated_sorted_array.py)
 - [Find Minimum in Rotated Sorted Array II](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1031/) - [problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) - [answer](problems/test_find_minimum_in_rotated_sorted_array_ii.py)
+- [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1034/) (duplicate) - [problem](https://leetcode.com/problems/intersection-of-two-arrays) - [answer](problems/test_intersection_of_two_arrays.py)
+- [Intersection of Two Arrays II](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1029/) (duplicate) - [problem](https://leetcode.com/problems/intersection-of-two-arrays-ii) - [answer](problems/test_intersection_of_two_arrays_ii.py)
+- [Two Sum II - Input array is sorted](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1035/) (duplicate) - [problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) - [answer](problems/test_two_sum_ii_input_array_is_sorted.py)
