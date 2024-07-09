@@ -296,3 +296,8 @@ Two exercises are locked (premium account required)
 - [Pow(x, n)](https://leetcode.com/explore/learn/card/binary-search/137/conclusion/982/) (duplicate) - [problem](https://leetcode.com/problems/powx-n) - [answer](problems/test_powx_n.py)
 - [Valid Perfect Square](https://leetcode.com/explore/learn/card/binary-search/137/conclusion/978/) - [problem](https://leetcode.com/problems/valid-perfect-square) - [answer](problems/test_valid_perfect_square.py)
 - [Find Smallest Letter Greater Than Target](https://leetcode.com/explore/learn/card/binary-search/137/conclusion/977/) - [problem](https://leetcode.com/problems/find-smallest-letter-greater-than-target) - [answer](problems/test_find_smallest_letter_greater_than_target.py)
+
+#### More Practices
+
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1033/) (duplicate) - [problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) - [answer](problems/test_find_minimum_in_rotated_sorted_array.py)
+- [Find Minimum in Rotated Sorted Array II](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1031/) - [problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) - [answer](problems/test_find_minimum_in_rotated_sorted_array_ii.py)
