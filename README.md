@@ -304,3 +304,7 @@ Two exercises are locked (premium account required)
 - [Intersection of Two Arrays](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1034/) (duplicate) - [problem](https://leetcode.com/problems/intersection-of-two-arrays) - [answer](problems/test_intersection_of_two_arrays.py)
 - [Intersection of Two Arrays II](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1029/) (duplicate) - [problem](https://leetcode.com/problems/intersection-of-two-arrays-ii) - [answer](problems/test_intersection_of_two_arrays_ii.py)
 - [Two Sum II - Input array is sorted](https://leetcode.com/explore/learn/card/binary-search/144/more-practices/1035/) (duplicate) - [problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) - [answer](problems/test_two_sum_ii_input_array_is_sorted.py)
+
+#### More Practices II
+
+- [Find the Duplicate Number](https://leetcode.com/explore/learn/card/binary-search/146/more-practices-ii/1039/) - [problem](https://leetcode.com/problems/find-the-duplicate-number) - [answer](problems/test_find_the_duplicate_number.py)
