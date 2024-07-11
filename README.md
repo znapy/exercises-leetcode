@@ -308,3 +308,4 @@ Two exercises are locked (premium account required)
 #### More Practices II
 
 - [Find the Duplicate Number](https://leetcode.com/explore/learn/card/binary-search/146/more-practices-ii/1039/) - [problem](https://leetcode.com/problems/find-the-duplicate-number) - [answer](problems/test_find_the_duplicate_number.py)
+- [Median of Two Sorted Arrays](https://leetcode.com/explore/learn/card/binary-search/146/more-practices-ii/1040/) - [problem](https://leetcode.com/problems/median-of-two-sorted-arrays) - [answer](problems/test_median_of_two_sorted_arrays.py)
