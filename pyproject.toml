@@ -2,17 +2,14 @@
 name = "exercises-leetcode"
 version = "1.0.0"
 authors = [{name = "Alic Znapy", email = "AlicZnapy@gmail.com"},]
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 
 [project.optional-dependencies]
 # development dependency groups
 dev = [
-    "mypy>=1.6.1",
-    "pylint>=3.0.2",
-    "python-lsp-server[pycodestyle,pydocstyle,mccabe,pyflakes,rope,yapf,autopep8]>=1.10",
-    "pylsp-mypy>=0.6.7",
-    "spyder-kernels>=2.5",
-    "pytest>=8.0.1",
+    "mypy>=1.14.1",
+    "pylint>=3.3.4",
+    "pytest>=8.3.4",
 ]
 
 [tool.mypy]

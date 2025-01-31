@@ -1,6 +1,19 @@
 ## About
 
-My python exercises in https://leetcode.com/
+My python exercises from https://leetcode.com/
+
+I'm using [Spyder IDE](https://github.com/spyder-ide/spyder) (I want to try something new during the training period). 
+The recommended way to use it is via `conda` but I prefer `pip`:
+
+```
+cd <Project directory>
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install spyder spyder-unittest
+pip install .[dev]
+```
+
+If you prefer to install project environment to a different place (not with spyder) - add extra packages `python-lsp-server[pycodestyle,pydocstyle,mccabe,pyflakes,rope,yapf,autopep8] pylsp-mypy spyder-kernels`
 
 ## Explore learn
 
