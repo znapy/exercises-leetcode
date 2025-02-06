@@ -11,22 +11,36 @@ SPDX-License-Identifier: Apache-2.0
 
 # from bisect import bisect_right
 from collections import defaultdict
-from heapq import heappushpop, heappush
+from heapq import heappushpop, heappush, heapreplace, heappop
+import math
 import random
 from timer import timer
+from typing import NamedTuple
 
 
 class Solution:
     """Leetcode class for answers."""
 
     @staticmethod
+    def number_to_length(distances: int) -> int:
+        """Length of a list with number of distances."""
+        val = ((8*distances + 1)**0.5 + 1) / 2
+        return math.ceil(val)
+
+    @staticmethod
     def via_dict(nums: list[int], k: int) -> int:
         """With dict as a distance counter."""
         distances: defaultdict[int, int] = defaultdict(int)
 
-        for i, val_i in enumerate(nums):
-            for val_j in nums[i+1:]:
-                distances[abs(val_i - val_j)] += 1
+        # sort operation is cheaper than abs each distance
+        #   (to check which number is higher for positive distance)
+        nums_sorted, n = list(sorted(nums)), len(nums)
+
+        length_k = Solution.number_to_length(k)
+        for i, val_i in enumerate(nums_sorted[:-1]):
+            edge = min(n, i + length_k)
+            for val_j in nums_sorted[i + 1:edge]:
+                distances[val_j - val_i] += 1
 
         remains = k
         for key in sorted(distances.keys()):
@@ -36,18 +50,22 @@ class Solution:
         return -1
 
     @staticmethod
+    def length_to_number(length: int) -> int:
+        """Number of distances in a list with n-length values."""
+        return int(length * (length - 1) / 2)
+
+    @staticmethod
     def via_heap(nums: list[int], k: int) -> int:
-        """With heap as a tail."""
-        n = len(nums)
-        max_quantity = int(n * (n - 1) / 2)
-        if k > max_quantity:
+        """With heap from the front and back."""
+        number_distances = Solution.length_to_number(len(nums))
+        if k > number_distances:
             return -1
 
         nums_sorted = list(sorted(nums))
         heap_k = []
 
         def get_1st_half():
-            for i, val_i in enumerate(nums_sorted):
+            for i, val_i in enumerate(nums_sorted[:-1]):
                 for val_j in nums_sorted[i + 1:]:
                     distance = val_j - val_i
                     if len(heap_k) < k:
@@ -60,9 +78,9 @@ class Solution:
             return -heap_k[0]
 
         def get_2nd_half():
-            max_length_heap = max_quantity - k + 1
-            for i, val_i in enumerate(nums_sorted):
-                for val_j in nums_sorted[:i:-1]:
+            max_length_heap = number_distances - k + 1
+            for i, val_i in enumerate(nums_sorted[:-1]):
+                for val_j in nums_sorted[i+1:]:
                     distance = val_j - val_i
                     if len(heap_k) < max_length_heap:
                         heappush(heap_k, distance)
@@ -72,22 +90,91 @@ class Solution:
                     heappushpop(heap_k, distance)
             return heap_k[0]
 
-        if k < int(max_quantity / 2):
+        if k < int(number_distances / 2):
             return get_1st_half()
         else:
             return get_2nd_half()
 
-    # @staticmethod
-    # def _pairs_in_distance(nums: list[int], distance: int) -> int:
-    #     if len(nums) > 1000:
-    #         raise ValueError("Brute calculations are too long")
-    #     return -1
+    @staticmethod
+    def via_heap_backward(nums: list[int], k: int) -> int:
+        """With heap from the back - improved."""
+        n = len(nums)
+        number_distances = Solution.length_to_number(n)
+        nums_sorted = list(sorted(nums))
+
+        class Distance(NamedTuple):
+            distance: int
+            i_min: int
+            i_max: int
+            single: bool
+
+        def get_distance(i_min: int, i_max: int, single: bool) -> Distance:
+            return Distance(
+                nums_sorted[i_min] - nums_sorted[i_max],
+                i_min, i_max, single)
+
+        def split(d0: Distance) -> tuple[Distance | None, Distance | None]:
+            if d0.i_min == d0.i_max - 1:
+                return (None, None)
+            d1 = get_distance(d0.i_min, d0.i_max - 1, single=True)
+            d2 = None if d0.single else get_distance(
+                d0.i_min + 1, d0.i_max, single=False)
+            return (d1, d2)
+
+        tail = [get_distance(0, n-1, single=False)]
+        for i in range(number_distances - k):
+            ds = split(tail[0])
+            if ds[0] is None:
+                heappop(tail)
+                continue
+            heapreplace(tail, ds[0])
+            if ds[1] is not None:
+                heappush(tail, ds[1])
+
+        return -tail[0].distance
+
+    @staticmethod
+    def via_dict_heap(nums: list[int], k: int) -> int:
+        """With dict as main algorithm and heap for a tail."""
+        n = len(nums)
+        number_distances = Solution.length_to_number(n)
+        if k > number_distances:
+            return -1
+
+        if k <= int(number_distances*9/10):
+            return Solution.via_dict(nums, k)
+        else:
+            return Solution.via_heap_backward(nums, k)
 
     def smallestDistancePair(  # pylint: disable=invalid-name
         self, nums: list[int], k: int
     ) -> int:
         """Leetcode function as answer."""
-        return Solution.via_dict(nums, k)
+        return Solution.via_dict_heap(nums, k)
+
+
+type Kit = tuple[list[int], list[int]]
+
+
+def kit_1() -> Kit:
+    return ([0, 1, 3, 7, 15, 31],
+            [1, 2, 3, 4, 6, 7, 8, 12, 14, 15, 16, 24, 28, 30, 31])
+
+
+def kit_2() -> Kit:
+    return ([0, 16, 24, 28, 30, 31],
+            [1, 2, 3, 4, 6, 7, 8, 12, 14, 15, 16, 24, 28, 30, 31])
+
+
+def kit_3() -> Kit:
+    return ([0, 1, 5, 21, 29, 31],
+            [1, 2, 4, 5, 8, 10, 16, 20, 21, 24, 26, 28, 29, 30, 31])
+
+
+def kit_4() -> Kit:
+    n = 100
+    return (list(range(n)),
+            [i for i in range(1, n) for _ in range(n-i)])
 
 
 def main() -> None:
@@ -95,13 +182,27 @@ def main() -> None:
     n = 1000
     nums = list(range(n))
     random.shuffle(nums)
-    k = int(n * (n - 1) / 4)
+    k = int(Solution.length_to_number(n)/2) + 1
     print(f"{k=}, {n=}")
 
     func_timed = timer(Solution.via_heap)
     print("result heap:", func_timed(nums, k))
     func_timed = timer(Solution.via_dict)
     print("result dict:", func_timed(nums, k))
+    func_timed = timer(Solution().smallestDistancePair)
+    print("result solution:", func_timed(nums, k))
+
+    print()
+    nums, answs = kit_4()
+
+    @timer
+    def case(func):
+        for i, answ in enumerate(answs):
+            assert func(nums, i+1) == answ
+    print("Compare all distances for: dict, heap_backward, dict_heap:")
+    case(Solution.via_dict)
+    case(Solution.via_heap_backward)
+    case(Solution.via_dict_heap)
 
 
 if __name__ == "__main__":
@@ -110,7 +211,30 @@ if __name__ == "__main__":
 #########
 # Tests
 # pylint: disable=missing-function-docstring
-func = timer(Solution().smallestDistancePair)
+
+
+def test_length_to_number() -> None:
+    func = Solution.length_to_number
+    assert func(1) == 0
+    assert func(2) == 1
+    assert func(3) == 3
+    assert func(4) == 6
+    assert func(5) == 10
+    assert func(6) == 15
+
+
+def test_number_to_length() -> None:
+    func = Solution.number_to_length
+    assert func(0) == 1
+    assert func(1) == 2
+    assert func(3) == 3
+    assert func(6) == 4
+    assert func(8) == 5
+    assert func(10) == 5
+    assert func(11) == 6
+
+
+func = Solution().smallestDistancePair
 
 
 def test_leetcode_example_1() -> None:
@@ -144,26 +268,29 @@ def test_common() -> None:
     assert func([0, 0, 0, 0], 6) == 0
 
     nums = [
-        1000,
-        1001,
-        998,
-        1004,
-        994,
-        1005,
-        988,
-        1012,
-        980,
-        1021,
-        970,
-        1032,
-        958,
-        1045,
-        944,
-        1060,
-    ]
+        1000, 1001, 998, 1004, 994, 1005, 988, 1012, 980, 1021,
+        970, 1032, 958, 1045, 944, 1060]
     random.shuffle(nums)  # the correct algoritm doesn't care about the order
     assert func(nums, 1) == 1
     assert func(nums, 120) == 116
+
+
+def test_kit_1() -> None:
+    nums, answs = kit_1()
+    for i, answ in enumerate(answs):
+        assert func(nums, i+1) == answ
+
+
+def test_kit_2() -> None:
+    nums, answs = kit_2()
+    for i, answ in enumerate(answs):
+        assert func(nums, i+1) == answ
+
+
+def test_kit_3() -> None:
+    nums, answs = kit_3()
+    for i, answ in enumerate(answs):
+        assert func(nums, i+1) == answ
 
 
 def test_leetcode_17() -> None:
@@ -10169,7 +10296,4 @@ def test_leetcode_17() -> None:
         870060,
         881544,
     ]
-
     assert func(nums, k=25_000_000) == 292051
-
-# test_leetcode_17()
